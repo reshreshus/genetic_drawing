@@ -98,7 +98,7 @@ def crossover(parents, children_count):
 ```
 Also, crossover is where mutation can happen.
 When there are not many genes probability of *some* mutation is 1. I did that just to speed up the process.
-### Mutation ![](https://i.imgur.com/WlmwFBO.png =80x20)
+### Mutation ![](https://i.imgur.com/WlmwFBO.png=80x20)
 Organisms can mutate in 8 ways:
 * Add a new gene (ellipse)
 * Delete a gene
@@ -193,13 +193,13 @@ The list goes on.
 Another version of the algorithm. After some number of epochs, one could save the generated image and next time draw on top of it, getting rid of control on previously generated genes. 
 
 ### Other inputs with different algorithms / constants:
-Original
-![](https://i.imgur.com/jmt6Gp8.png)
-If we pick the same colors:
-![](https://i.imgur.com/BuPbF88.png) 
-Big circles:
-![](https://i.imgur.com/k4s9hyD.png)
-Squished circles:
-![](https://i.imgur.com/41Avhcu.png) 
-After applying "cheating" described above and using smaller circles if the algorithm is stuck:
-![](https://i.imgur.com/zxGQI6R.jpg)
+Original:  
+![](https://i.imgur.com/jmt6Gp8.png)  
+If we pick the same colors:  
+![](https://i.imgur.com/BuPbF88.png)  
+Big circles:  
+![](https://i.imgur.com/k4s9hyD.png)  
+Squished circles:  
+![](https://i.imgur.com/41Avhcu.png)   
+After applying "cheating" described above and using smaller circles if the algorithm is stuck:  
+![](https://i.imgur.com/zxGQI6R.jpg)  
