@@ -78,7 +78,7 @@ def selection(population, matching_pairs_number):
     		i += 2
     ...
 ```
-### Crossover. For lucky set of selected organisms ![]
+### Crossover. For lucky set of selected organisms
 Random set of pairs interchange their genes  
 Set of K organisms is generated from a pair  
 New generation gets random genes from parents  
@@ -98,7 +98,7 @@ def crossover(parents, children_count):
 ```
 Also, crossover is where mutation can happen.
 When there are not many genes probability of *some* mutation is 1. I did that just to speed up the process.
-### Mutation ![](https://i.imgur.com/WlmwFBO.png | 80x20)
+### Mutation
 Organisms can mutate in 8 ways:
 * Add a new gene (ellipse)
 * Delete a gene
@@ -127,7 +127,7 @@ def mutate(self):
     if random.random() < 0.1:
         self.mutate()
 ```
-#### A *gene* mutation ![](https://i.imgur.com/WlmwFBO.png | 80x20)
+#### A *gene* mutation
 ```python
 def mutate_ellipse(self, choice=random.randint(1, 8)):
     # Mutate different parameter randomly
